@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <table>
+            <form>
+                <div>
+                    <label>Full Name</label>
+                    <input type="text" name="fullName" placeholder="Full Name" required>
+                </div>
+                <div>
+                    <label>College Name</label>
+                    <input type="text" name="collegeName" placeholder="College Name">
+                </div>
+                <div>
+                    <label>Branch Name</label>
+                    <input type="text" name="branchName" placeholder="Branch Name">
+                </div>
+                <div>
+                    <label> Email Id</label>
+                    <input type="email" name="emailId" placeholder="email id">
+                </div>
+                <div>
+                    <label>Password</label>
+                    <input type="password" name="password" placeholder="password">
+                </div>
+                <div>
+                    <label>Select Gender</label>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                </div>
+                <div>
+                    <label>Select city</label>
+                    <select>
+                        <option>Banglore</option>
+                        <option>Hyderabad</option>
+                        <option>Chennai</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Date of Birth</label>
+                    <input type="date" name="dateOfBirth">
+                </div>
+                <div>
+                    <label>Age</label>
+                    <input type="number" name="age" min="0" max="100">
+                    
+                </div>
+                <div>
+                    <label>Enter Address</label>
+                    <textarea rows="5" cols="10"></textarea>
+                </div>
+                <div>
+                    <label>Upload File</label>
+                    <input type="file" name="uploadFile">
+                </div>
+                <div>
+                    <label>Select Course</label>
+                    <input type="checkbox">Java
+                    <input type="checkbox">sql
+                    <input type="checkbox">HTML
+
+                </div>
+                <button type="submit">Register</button>
+                <button type="reset">Reset</button>
+            </form>
+        </table>
+    </body>
+</html>
